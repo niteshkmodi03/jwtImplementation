@@ -1,4 +1,4 @@
-package com.javainuse.controller;
+package com.example.jwtImpl.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.javainuse.controller;
+package com.example.jwtImpl.controller;
 
 import java.util.Objects;
 
@@ -14,13 +14,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import com.javainuse.service.JwtUserDetailsService;
 
-
-import com.javainuse.config.JwtTokenUtil;
-import com.javainuse.model.JwtRequest;
-import com.javainuse.model.JwtResponse;
-import com.javainuse.model.UserDTO;
+import com.example.jwtImpl.config.JwtTokenUtil;
+import com.example.jwtImpl.model.JwtRequest;
+import com.example.jwtImpl.model.JwtResponse;
+import com.example.jwtImpl.model.UserDTO;
+import com.example.jwtImpl.service.JwtUserDetailsService;
 
 @RestController
 @CrossOrigin

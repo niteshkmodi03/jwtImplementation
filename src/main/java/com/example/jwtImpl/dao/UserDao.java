@@ -1,9 +1,9 @@
-package com.javainuse.dao;
+package com.example.jwtImpl.dao;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.javainuse.model.DAOUser;
+import com.example.jwtImpl.model.DAOUser;
 
 @Repository
 public interface UserDao extends CrudRepository<DAOUser, Integer> {

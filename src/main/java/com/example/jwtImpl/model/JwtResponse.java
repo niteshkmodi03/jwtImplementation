@@ -1,4 +1,4 @@
-package com.javainuse.model;
+package com.example.jwtImpl.model;
 
 import java.io.Serializable;
 
